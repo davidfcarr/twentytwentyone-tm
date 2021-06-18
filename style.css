@@ -1,0 +1,54 @@
+/*
+Theme Name: Twenty Twenty One TM
+Template: twentytwentyone
+Version: 1.0.4
+Description: Toastmasters-branded variation on Twenty Twenty One, one of the reference designs from the developers of WordPress.
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+/* Variables */
+:root {
+	/* Colors */
+	--global--color-black: #000;
+	--global--color-dark-gray: #28303d;
+	--global--color-gray: #A9B2B1;
+	--global--color-light-gray: #f0f0f0;
+	--global--color-green: #d1e4dd;
+	--global--color-blue: #004165;
+	--global--color-purple: #d1d1e4;
+	--global--color-red: #772432;
+	--global--color-orange: #e4dad1;
+	--global--color-yellow: #F2DF74;
+	--global--color-white: #fff;
+	--global--color-white-50: rgba(255, 255, 255, 0.5);
+	--global--color-white-90: rgba(255, 255, 255, 0.9);
+	--global--color-primary: var(--global--color-white);
+
+	/* Body text color, site title, footer text color. */
+	--global--color-secondary: var(--global--color-gray);
+
+	/* Headings */
+	--global--color-primary-hover: var(--global--color-primary);
+	--global--color-background: var(--global--color-blue);
+
+	/* Mint, default body background */
+	--global--color-border: var(--global--color-primary);
+}
+
+#privacy-policy {
+	margin-bottom: 20px;
+}
+#privacy-policy a {
+		color: black;
+}
+
+.tm-site-logo {
+	margin-top: -50px;
+}
